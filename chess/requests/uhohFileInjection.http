@@ -1,0 +1,23 @@
+POST /load_board.php HTTP/2
+Host: hackerchess-web.h4ck.ctfcompetition.com
+Cookie: PHPSESSID=snnp1itnkrn9gds2hkjbaenvf3; _ga_06YS0MVC8B=GS1.1.1664720210.1.0.1664720210.0.0.0; _ga=GA1.1.1922598334.1664720211
+Content-Length: 154
+Sec-Ch-Ua: "-Not.A/Brand";v="8", "Chromium";v="102"
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36
+Sec-Ch-Ua-Platform: "Windows"
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundarytqSjRDG8PbpzSuXs
+Accept: */*
+Origin: https://hackerchess-web.h4ck.ctfcompetition.com
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://hackerchess-web.h4ck.ctfcompetition.com/index.php
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
+------WebKitFormBoundarytqSjRDG8PbpzSuXs
+Content-Disposition: form-data; name="filename"
+
+./baseboard.fen <-- HERE 
+------WebKitFormBoundarytqSjRDG8PbpzSuXs--
