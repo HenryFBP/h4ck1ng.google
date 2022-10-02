@@ -35,3 +35,4 @@ time 2 sqlmap :3c
 - sqli
 - form manipulation
 - burp suite
+- dirb
